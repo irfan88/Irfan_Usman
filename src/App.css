@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bahiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Poppins:wght@300&display=swap");
+body {
+  background-color: white;
+  font-family: "Bahiana", cursive;
+}
+
+.root {
+  height: 96vh;
+  /* color: #fff; */
+}
+
+.logo-img {
+  height: 80px;
+}
+
+.cusbtn {
+  background-color: white;
+  color: #000;
+  font-size: 1.4rem;
+  padding: 0.8rem 1.5rem;
+  border: 3px solid #ffd7a3;
+  font-weight: bold;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  font-family: "Bahiana", cursive;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.cusbtn:hover {
+  background-color: #febc44;
+  color: #fff;
+}
+
+.rightlogo {
+  border-radius: 20px;
+}
+
+.button-mint {
+  display: flex;
+}
+
+.minus,
+.plus {
+  width: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  /* color: #fff; */
+  font-weight: bold;
+  border: 3px solid #fff;
+  font-size: 30px;
+}
+
+.display-number {
+  /* background-color: #fff; */
+  color: #000;
+  height: 70px;
+  width: 70px;
+}
+.number {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.subtitle {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 5px;
+
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Bahiana", cursive;
+  /* font-family: "Poppins", sans-serif; */
+
+  /* color: #fff; */
+  font-size: 33px;
+}
+
+.opensealogo {
+  height: 40px;
+}
+
+.birdbg {
+  background-image: url("./assets/img/bird.png");
+  background-repeat: no-repeat;
+}
+
+.lefttree {
+  position: absolute;
+  top: 14%;
+  left : 3px
+}
+.leftimg {
+  height: 700px;
+}
+.righttree {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.rightimg {
+  height: 400px;
+}
+/* .birdsdiv {
+  position: absolute;
+  right: 35%;
+  top: 8%;
+}
+.birdimg {
+  height: 100px;
+} */
+
+@media only screen and (max-width: 600px) {
+  .mbr {
+    margin-top: 5rem;
+  }
+
+  .lefttree {
+    position: absolute;
+    top: 20%;
+  }
+  .leftimg {
+    height: 450px;
+  }
+  .righttree {
+    position: absolute;
+    top: 40%;
+    right: -5%;
+  }
+  .rightimg {
+    height: 300px;
+  }
+}
